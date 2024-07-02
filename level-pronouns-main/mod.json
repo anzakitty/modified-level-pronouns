@@ -1,0 +1,39 @@
+{
+	"geode": "3.0.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"tags": [
+		"joke"
+	],
+	"id": "n.level-pronouns",
+	"name": "Level Pronouns",
+	"version": "v1.1.1",
+	"developer": "n",
+	"description": "Enhance 2.2 with pronouns on levels!",
+	"repository": "https://github.com/NicknameGG/level-pronouns",
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=1.1.1",
+			"importance": "required"
+		}
+	],
+	"settings": {
+		"neopronouns": {
+			"name": "Use Neopronouns",
+			"description": "Use neopronouns in levels. <cy>Warning</c>: Disabling will make levels with neopronouns have normal pronouns.",
+			"type": "bool",
+			"default": true
+		},
+		"White Text": {
+			"type": "bool",
+			"name": "White Text",
+			"description": "Use black text for pronouns. In case you have dark mode mod.",
+			"default": false
+		}
+	}
+}
